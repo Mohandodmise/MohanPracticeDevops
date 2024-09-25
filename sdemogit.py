@@ -20,4 +20,13 @@ copy ssh key using - cat ~/.ssh/id_rsa.pub
 paste this ssh key into github setting ssh and gpg key "new ssh key" and save
 now taste the ssh connection to github account - ssh -T git@github.com
 now update git remote location - git remote set-url origin git@github.com:Mohandodmise/MohanPracticeDevops.git
+<<<<<<< HEAD
 now use git push origin master
+=======
+not use git push origin master
+
+Updation from mumbai server
+use git remote add origin <url> -to connect local repo with central repo github
+use git pull origin master -to get file from central repo to local repo
+
+>>>>>>> fb4b269c65ec07f8f963fcd384b93ee67182ea7a
