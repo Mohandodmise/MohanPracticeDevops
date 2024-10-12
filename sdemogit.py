@@ -4,7 +4,7 @@ use sudo su command to become root user
 create one directory
 use git init to intialize directory as git local repository
 use git config --global user.name "__" to create user for git repo
-use git config --global user.email "__" to link mail to repo"
+use git config --global user.email "__" to link mail to repo
 use git config --list to check details
 create one file with code -created in git working directory
 now check git status -there is untracked file show
@@ -28,5 +28,3 @@ not use git push origin master
 Updation from mumbai server
 use git remote add origin <url> -to connect local repo with central repo github
 use git pull origin master -to get file from central repo to local repo
-
->>>>>>> fb4b269c65ec07f8f963fcd384b93ee67182ea7a
